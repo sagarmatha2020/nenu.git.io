@@ -1,0 +1,51 @@
+
+p {
+    margin-top: 0;
+   padding: 0;
+ 
+}
+
+.thumbnail-photo {
+    width: 100%; 
+   
+    
+}
+
+
+.thumbnail-photo-top {
+ margin-bottom: 12px; 
+ position: relative;
+ 
+}
+.video-time {
+    font-family: roboto, arial;
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    position: absolute;
+    right: 8px; 
+    bottom: 10px; 
+    padding: 4px;
+    border-radius: 2px; 
+    font-size: 12px;
+    
+}
+
+
+
+.profile-photo {
+    width: 40px;
+    border-radius: 20px;
+
+}  
+
+.profile-discription-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 17px;
+    row-gap: 40px;
+}
